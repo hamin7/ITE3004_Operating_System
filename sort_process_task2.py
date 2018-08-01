@@ -11,7 +11,7 @@ def sorting_thread(array, pid, lock) :
     random_function(array)
     sorting_function(array)
     print_array(array, pid)
-    stop = timeit.default_timer()
+    stop = timeit.default_timer(
     print('%0.3f sec' %(stop-start))
     lock.release()
     
