@@ -5,7 +5,7 @@ import time
 
 def sorting_thread(array, pid) :
     
-    print('############Thread #%d started...............\n' %pid)
+    print('#############Thread #%d started...............\n' %pid)
 
     start = timeit.default_timer()
     random_function(array)
